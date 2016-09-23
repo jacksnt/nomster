@@ -45,3 +45,6 @@ gem 'sprockets', '2.11.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
+
+# Add for pagination
+gem 'will_paginate'
