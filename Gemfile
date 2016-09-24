@@ -51,3 +51,6 @@ gem 'will_paginate'
 
 # Add input form
 gem 'simple_form'
+
+# Use for user authentication
+gem 'devise', '>= 3.2.4'
