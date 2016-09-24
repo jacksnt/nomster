@@ -48,3 +48,6 @@ gem 'sass-rails'
 
 # Add for pagination
 gem 'will_paginate'
+
+# Add input form
+gem 'simple_form'
