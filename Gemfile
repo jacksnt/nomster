@@ -54,3 +54,9 @@ gem 'simple_form'
 
 # Use for user authentication
 gem 'devise', '>= 3.2.4'
+
+# Geocoder - address conversion to lat/long
+gem 'geocoder', '1.3.4'
+
+# Storing API keys in an environment variable (ENV)
+gem 'figaro', '>= 1.0.0'
