@@ -34,12 +34,13 @@
   <% @place.photos.each do |photo| %>
     <div class="col-xs-12 col-sm-6">
       <div>
-        <%= image_tag photo.picture %>
+        <%= image_tag photo.picture, class: 'place-picture'%><br/>
         <%= photo.caption %>
       </div>
     </div>
   <% end %>
-
+  <br/>
+  <div class="clear"></div>
   <div class="pull-right">
     <% if current_user && current_user == @place.user %>
       <button class="btn btn-primary" data-toggle="modal" data-target="#picModal">
